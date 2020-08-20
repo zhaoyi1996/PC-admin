@@ -1,0 +1,11 @@
+--2020-08-16 23:56:36--  http://ytx-sdk.oss-cn-shanghai.aliyuncs.com/dysms_php.zip?spm=a2c4g.11186623.2.17.74f84175BUgEN8
+Resolving ytx-sdk.oss-cn-shanghai.aliyuncs.com (ytx-sdk.oss-cn-shanghai.aliyuncs.com)... 139.227.226.194
+Connecting to ytx-sdk.oss-cn-shanghai.aliyuncs.com (ytx-sdk.oss-cn-shanghai.aliyuncs.com)|139.227.226.194|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 377516 (369K) [application/zip]
+Saving to: ‘dysms_php.zip?spm=a2c4g.11186623.2.17.74f84175BUgEN8’
+
+                       dysms_php.zip?spm=a2c4   0%[                                                                                               ]       0  --.-KB/s                                     dysms_php.zip?spm=a2c4g  32%[==============================>                                                                ] 121.22K   594KB/s                                    dysms_php.zip?spm=a2c4g.  61%[=========================================================>                                     ] 226.49K   554KB/s                                   dysms_php.zip?spm=a2c4g.1  79%[==========================================================================>                    ] 294.85K   479KB/s               dysms_php.zip?spm=a2c4g.11186623.2.17.74f8417 100%[==============================================================================================>] 368.67K   485KB/s    in 0.8s    
+
+2020-08-16 23:56:42 (485 KB/s) - ‘dysms_php.zip?spm=a2c4g.11186623.2.17.74f84175BUgEN8’ saved [377516/377516]
+

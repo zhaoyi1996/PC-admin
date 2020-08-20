@@ -6,7 +6,11 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
+try{
 
+}catch (\ Exception $e ){
+    var_dump($e);
+}
 define('LARAVEL_START', microtime(true));
 
 /*
