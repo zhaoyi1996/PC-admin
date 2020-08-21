@@ -27,10 +27,22 @@ class LoginController extends Controller
                 ];
                 return $err;
             }else{
+                //密码正确 返回200状态码,将用户id和token存入session
+                $token=md5(time());
                 $success=[
                     'status'=>200,
-                    'msg'=>"登陆成功"
+                    'msg'=>"登陆成功",
+                    "uid"=>$res['uid'],
+                    "token"=>$token
                 ];
+                //更新用户token
+                $upd_token=User::where('uid',$res['uid'])->update(['token'=>$token]);
+                //将用户ID和TOKEN存入session
+                $userInfo=[
+                    "uid"=>$res['uid'],
+                    "token"=>$token
+                ];
+                session(['userInfo'=>$userInfo]);
                 return $success;
             }
         }else{
