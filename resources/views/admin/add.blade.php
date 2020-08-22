@@ -5,14 +5,14 @@
     <div class="layui-form-item">
         <label class="layui-form-label">管理员账号</label>
         <div class="layui-input-inline">
-            <input type="text" name="admin_name" required  lay-verify="required" value="zhangsan"
+            <input type="text" name="admin_name" required  lay-verify="required"
                    placeholder="请输入管理员名称" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">真实名字</label>
         <div class="layui-input-inline">
-            <input type="text" name="real_name" required  lay-verify="required" value="张三"
+            <input type="text" name="real_name" required  lay-verify="required"
                    placeholder="请输入管理员真实姓名" autocomplete="off" class="layui-input">
         </div>
     </div>
@@ -20,28 +20,28 @@
     <div class="layui-form-item">
         <label class="layui-form-label">密码</label>
         <div class="layui-input-inline">
-            <input type="text" name="pwd" required  lay-verify="required"  value="123456"
+            <input type="text" name="pwd" required  lay-verify="required"
                    placeholder="请输入你的密码" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">确认密码</label>
         <div class="layui-input-inline">
-            <input type="text" name="repwd" required  lay-verify="required" value="123456"
+            <input type="text" name="repwd" required  lay-verify="required"
                    placeholder="请再次输入密码" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">手机号</label>
         <div class="layui-input-inline">
-            <input type="text" name="phone" required  lay-verify="required" value="13233334444"
+            <input type="text" name="phone" required  lay-verify="required"
                    placeholder="请输入手机号" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">邮箱</label>
         <div class="layui-input-inline">
-            <input type="text" name="email" required  lay-verify="required" value="112306@qq.com"
+            <input type="text" name="email" required  lay-verify="required" value="3150289960@qq.com"
                    placeholder="请输入标题" autocomplete="off" class="layui-input">
         </div>
     </div>
