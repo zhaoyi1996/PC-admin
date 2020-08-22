@@ -16,3 +16,11 @@
 //});
 
 Route::any('/' , 'IndexController@index' );
+
+//友情链接
+Route::get('/links/create',"LinkController@create");
+Route::get('/links/index',"LinkController@index");
+Route::post('/links/add',"LinkController@add");
+Route::get('/links/del/{id}',"LinkController@del");
+Route::get('/links/edit/{id}',"LinkController@edit");
+Route::post('/links/update/{id}',"LinkController@update");

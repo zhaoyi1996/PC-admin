@@ -19,6 +19,13 @@
             </li>
             <li class="layui-nav-item"><a href="">云市场</a></li>
             <li class="layui-nav-item"><a href="">发布商品</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">友情链接</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="/links/create">链接添加</a></dd>
+                    <dd><a href="/links/index">链接列表</a></dd>
+                </dl>
+            </li>
         </ul>
     </div>
 </div>
