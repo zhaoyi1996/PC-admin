@@ -1,8 +1,4 @@
 @include('public/header')
 @include('public/left')
-WELCOME INDEX
-WELCOME INDEX
-WELCOME INDEX
-WELCOME INDEX
-WELCOME INDEX
+<h1>后台</h1>
 @include('public/footer')

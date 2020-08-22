@@ -15,13 +15,11 @@ layui.use('table', function(){
     table.render({
         elem: '#demo'
         ,height: 480
-        ,url: '{{url('/powerNode/list')}}' //数据接口
+        ,url: '{{url('/admin/list')}}' //数据接口
         ,page: true //开启分页
         ,cols: [[ //表头
-            {field: 'power_node_id', title: 'ID', sort: true, fixed: 'left'}
-            ,{field: 'power_node_name', title: '节点的名称'}
-            ,{field: 'power_node_level', title: '节点的层级', sort: true}
-            ,{field: 'status_desc', title: '状态'}
+            {field: 'admin_id', title: 'ID', sort: true, fixed: 'left'}
+            ,{field: 'admin_name', title: '节点的名称'}
             ,{field: 'create_date', title: '创建时间', sort: true}
             ,{fixed: 'right',title: '操作',align:'center', toolbar: '#barDemo'}
         ]]
